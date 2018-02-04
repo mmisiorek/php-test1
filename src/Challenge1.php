@@ -7,7 +7,7 @@
  */
 
 /**
- * @param $string string
+ * @param string $string
  * @return string
  */
 function shorten_sentence(string $string): string {

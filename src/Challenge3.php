@@ -7,7 +7,7 @@
  */
 
 /**
- * @param $word string
+ * @param string $word
  * @return string
  */
 function create_signature(string $word): string {
@@ -33,7 +33,7 @@ function create_signature(string $word): string {
 }
 
 /**
- * @param $array array
+ * @param string[] $array
  * @return null|string
  */
 function find_uniq(array $array) {

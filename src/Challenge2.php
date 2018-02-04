@@ -7,7 +7,7 @@
  */
 
 /**
- * @param $string string
+ * @param string $string
  * @return string
  */
 function sort_strings($string) {
