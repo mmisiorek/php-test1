@@ -39,6 +39,8 @@ class GrammarException extends \Exception
 }
 
 /**
+ * Util function.
+ *
  * @param string $pattern
  * @param string $string
  * @return string[]
@@ -52,6 +54,9 @@ function get_matches_for_regex(string $pattern, string $string): array
 }
 
 /**
+ * The function parses the search query string and it returns as an array of
+ * params and values from array of allowed parameters.
+ *
  * @param array $paramList
  * @param string $query
  * @return array
@@ -60,6 +65,7 @@ function get_matches_for_regex(string $pattern, string $string): array
  */
 function parse_search_query(array $paramList, string $query): array
 {
+    // grammar definitions of correct gramatically elements
     $valueDef = "(('|\")[^\"']*('|\")|[a-zA-Z0-9]+)";
     $paramDef = "[a-zA-Z0-9]+";
     $expressionDef = "$paramDef:$valueDef";

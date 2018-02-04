@@ -30,6 +30,7 @@ class Challenge1Test extends TestCase
         return [
             ['Test Me Please', 'TMP'],
             ['TEst me please', 'TES'],
+            ['Tst Me please', 'TMS'],
             ['tEst Me please', 'EMT'],
             ['test Me please', 'MTE'],
             ['test me please', 'TES'],

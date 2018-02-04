@@ -7,6 +7,9 @@
  */
 
 /**
+ * The function sorts words in a given string based on the numbers
+ * located in the words.
+ *
  * @param string $string
  * @return string
  */

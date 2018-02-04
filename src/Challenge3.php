@@ -7,6 +7,9 @@
  */
 
 /**
+ * Create a signature of a string. It is made by set of unique characters from string
+ * ordered in the alphabetical order.
+ *
  * @param string $word
  * @return string
  */
@@ -33,6 +36,8 @@ function create_signature(string $word): string {
 }
 
 /**
+ * The function returns a string which does not match to others from array of strings.
+ *
  * @param string[] $array
  * @return null|string
  */

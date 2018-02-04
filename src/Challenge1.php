@@ -7,6 +7,9 @@
  */
 
 /**
+ * The function shorts a sentence to a three charater string with capital letters
+ * first and in case they are not enough - the rest of the letters.
+ *
  * @param string $string
  * @return string
  */
